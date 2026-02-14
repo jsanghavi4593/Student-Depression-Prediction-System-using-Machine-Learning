@@ -148,7 +148,7 @@ In this project, six different machine learning classification algorithms were i
 
 ## Conclusion:
 
-In this assignment, multiple Machine Learning classification models were implemented and evaluated for the **Student Depression Prediction** problem.
+In this assignment, multiple Machine Learning classification models were implemented and evaluated for the **Student Depression Classification** problem.
 
 The performance comparison shows that **Logistic Regression** achieved the best overall balance of Accuracy, AUC, and MCC, indicating strong generalization capability. Ensemble models such as **Random Forest** and **XGBoost** also delivered robust and stable performance.
 
