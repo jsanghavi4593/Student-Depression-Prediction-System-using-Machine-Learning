@@ -117,13 +117,13 @@ In this project, six different machine learning classification algorithms were i
 2. Install required dependencies:
 
    ```
-   pip3 install -r requirements.txt
+   pip install -r requirements.txt
    ```
 
 3. Run the Streamlit application:
 
    ```
-   python3 -m streamlit run app.py
+   streamlit run app.py
    ```
 
 4. The application will automatically open in your browser.
