@@ -1,4 +1,4 @@
-# Student Depression Prediction System – ML Assignment
+<h1 align="center">Student Depression Prediction System</h1>
 
 ---
 
@@ -68,7 +68,7 @@ This project utilizes a structured dataset containing student-related informatio
 
 ---
 
-## Models Implemented
+## Models Implemented:
 
 In this project, six different machine learning classification algorithms were implemented and compared to predict whether a student is depressed or not. Each model was trained and evaluated using standard performance metrics to determine the most accurate and reliable approach for depression prediction.
 
@@ -80,7 +80,7 @@ In this project, six different machine learning classification algorithms were i
 - XGBoost Classifier – A gradient boosting algorithm that builds sequential trees to enhance predictive performance. 
 ---
 
-## Evaluation Metrics
+## Evaluation Metrics:
 
 | Model Name          | Accuracy | AUC   | Precision | Recall | F1 Score | MCC   |
 |---------------------|----------|-------|-----------|--------|----------|-------|
@@ -105,4 +105,55 @@ In this project, six different machine learning classification algorithms were i
 | XGBoost (Ensemble)       | Maintained stable and competitive performance with strong F1-score (0.851) and MCC (0.638). Gradient boosting effectively captured complex feature interactions. |
 
 ---
+
+## Steps to Execute Code in VSCode:
+
+1. Clone the repository using the git clone command and your GitHub repository URL:
+
+   ```
+   git clone https://github.com/jsanghavi4593/Student-Depression-Prediction-System-using-ML.git
+   ```
+
+2. Install required dependencies:
+
+   ```
+   pip3 install -r requirements.txt
+   ```
+
+3. Run the Streamlit application:
+
+   ```
+   python3 -m streamlit run app.py
+   ```
+
+4. The application will automatically open in your browser.
+
+5. If it does not open automatically, manually go to:
+
+   ```
+   http://localhost:8501
+   ```
+
+---
+
+## How to Use the Stremlit Application:
+
+1. Upload the test dataset (student_depression_dataset.csv file).
+2. Select the desired Machine Learning model from the dropdown.
+3. View prediction results.
+4. Analyze evaluation metrics and Confusion Matrix.
+5. Review the classification report for detailed performance analysis.
+
+---
+
+## Conclusion:
+
+In this assignment, multiple Machine Learning classification models were implemented and evaluated for the **Student Depression Prediction** problem.
+
+The performance comparison shows that **Logistic Regression** achieved the best overall balance of Accuracy, AUC, and MCC, indicating strong generalization capability. Ensemble models such as **Random Forest** and **XGBoost** also delivered robust and stable performance.
+
+While simpler models like Decision Tree showed comparatively lower performance, the overall analysis demonstrates that properly tuned models combined with feature preprocessing can effectively predict student depression.
+
+This project highlights the importance of machine learning in supporting early mental health risk detection and demonstrates a complete ML workflow including preprocessing, training, evaluation, comparison, and deployment using Streamlit.
+
 
